@@ -1,0 +1,26 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "weather app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egregiouss/weather-app.git"
+  },
+  "keywords": [
+    "weather",
+    "js"
+  ],
+  "author": "Egor Krokhin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egregiouss/weather-app/issues"
+  },
+  "homepage": "https://github.com/egregiouss/weather-app#readme",
+  "dependencies": {
+    "ymaps": "^0.2.1"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Гисметео</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<h1>Гисметео</h1>
+<div class="container">
+    <div class="weather-input">
+        <h3>Введите название города</h3>
+        <input class="city-input" type="text" placeholder="Сатка, Екатеринбург ...">
+        <button class="search-city-btn">Поиск</button>
+
+        <div class="separator"></div>
+
+        <input class="lat-input" type="text" placeholder="Широта">
+        <input class="lon-input" type="text" placeholder="Долгота">
+        <button class="search-coordinates-btn">Поиск</button>
+
+        <div class="separator"></div>
+
+
+        <button class="location-btn">Мое местоположение</button>
+    </div>
+    <div class="weather-data">
+
+    </div>
+</div>
+    <div id="map" style="width: 100px; height: 100px"></div>
+
+<script src="https://api-maps.yandex.ru/2.1/?apikey=97d788ad-124f-4bb3-b480-828ecab39447
+&lang=ru_RU" type="text/javascript"></script>
+<script src="main.js" defer></script>
+</body>
+</html>
